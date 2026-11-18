@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "99876000000013049",
+      "name": "CivicLens-AI",
+      "domain": {
+        "id": "50047748929",
+        "name": "civiclens-ai-60096633959.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60096633959",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
