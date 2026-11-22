@@ -6,7 +6,7 @@ const TOKEN_KEY = 'civiclens_token';
 // Set VITE_API_URL (e.g. http://127.0.0.1:8000) to call the backend directly.
 const baseURL = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
 
-export const api = aaxios.create({ baseURL, timeout: 60000 });
+export const api = axios.create({ baseURL, timeout: 60000 });
 
 export const tokenStore = {
   get: () => {
@@ -51,3 +51,4 @@ export function errorMessage(err, fallback = 'Something went wrong. Please try a
   if (Array.isArray(d) && d[0]?.msg) return d[0].msg;
   return fallback;
 }
+
